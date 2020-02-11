@@ -1,0 +1,23 @@
+{
+  "name": "jenkins-newman",
+  "version": "1.0.0",
+  "description": "Project for storing postman tests",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "api-test-production": "newman run tests/json_place_holder.postman_collection.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/kamboj652/api_test_jenkins.git"
+  },
+  "author": "Gourav",
+  "bugs": {
+    "url": "https://gitlab.com/kamboj652/api_test_jenkins/issues"
+  },
+  "homepage": "https://gitlab.com/kamboj652/api_test_jenkins#readme",
+  "dependencies": {
+    "newman": "^4.5.7"
+  }
+}
