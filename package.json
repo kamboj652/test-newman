@@ -6,7 +6,7 @@
     "test": "tests"
   },
   "scripts": {
-    "api-test-production": "newman run tests/json_place_holder.postman_collection.json"
+    "api-test-production": "newman run tests/json_place_holder.postman_collection.json --reporters junit --reporte-junit-export newman.xml"
   },
   "repository": {
     "type": "git",
